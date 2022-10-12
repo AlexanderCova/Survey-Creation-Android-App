@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "538803644935",
+    "project_id": "survey-creation-app",
+    "storage_bucket": "survey-creation-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538803644935:android:f35cfbb62699b668f758a2",
+        "android_client_info": {
+          "package_name": "io.github.alexandercova.surveycreationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538803644935-cqctbvcilqtsha5tk947hnf9i9t8id2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0e1AZn2yNHiHvwaUJv_emWRanlKOwMkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538803644935-cqctbvcilqtsha5tk947hnf9i9t8id2a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
