@@ -20,6 +20,15 @@ class RegistrationActivity : AppCompatActivity() {
         setContentView(view)
 
         auth= FirebaseAuth.getInstance()
+
+        binding.registerButton.setOnClickListener {
+            register()
+        }
+        binding.loginpageText.setOnClickListener {
+            goToLogin()
+        }
+
+
     }
 
     fun register() {
@@ -29,6 +38,7 @@ class RegistrationActivity : AppCompatActivity() {
         auth.createUserWithEmailAndPassword(email,password).addOnCompleteListener { task ->
             if(task.isSuccessful){
                 val intent= Intent(this,MainActivity::class.java)
+
                 startActivity(intent)
                 finish()
             }
@@ -37,6 +47,12 @@ class RegistrationActivity : AppCompatActivity() {
         }
 
 
+    }
+
+    fun goToLogin() {
+        val intent = Intent(this, LoginActivity::class.java)
+        startActivity(intent)
+        finish()
     }
 
 

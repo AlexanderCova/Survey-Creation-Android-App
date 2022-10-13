@@ -19,6 +19,18 @@ class LoginActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
+        auth= FirebaseAuth.getInstance()
+
+        if (auth.currentUser != null) {
+            val intent= Intent(this,MainActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+
+
+
+
         binding.loginButton.setOnClickListener {
             login()
         }
