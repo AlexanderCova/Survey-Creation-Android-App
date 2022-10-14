@@ -48,6 +48,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-analytics-ktx'
     implementation 'com.google.firebase:firebase-auth-ktx:21.1.0'
     implementation 'com.google.firebase:firebase-firestore-ktx'
+    implementation 'com.google.android.material:material:1.2.0-alpha05'
 
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 
